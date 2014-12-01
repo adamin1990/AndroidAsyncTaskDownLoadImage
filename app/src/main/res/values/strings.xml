@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAsyncTaskDownLoadImage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="urls">
+        <item >图片1</item>
+        <item >图片2</item>
+        <item >图片3</item>
+        <item >图片4</item>
+        <item >图片5</item>
+        <item >图片6</item>
+        <item >图片7</item>
+        <item >图片8</item>
+        <item>tu9</item>
+        <item>tu10</item>
+        <item>tu11</item>
+        <item>tu12</item>
+        <item>tu13</item>
+        <item>tu14</item>
+        <item>DUITANG</item>
+
+    </string-array>
+    <string-array name="imageurls">
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201411/22/20141122192900_U2A3U.jpeg</item>
+        <item>http://img5.duitang.com/uploads/item/201309/15/20130915220024_BzsAa.thumb.700_0.jpeg</item>
+
+
+    </string-array>
+</resources>

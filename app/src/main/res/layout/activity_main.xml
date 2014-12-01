@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:id="@+id/container"
+    android:background="#ffcc00"
+    tools:ignore="MergeRootRelative"
+    android:padding="24dp"
+    tools:context="com.lt.adam.asynctaskdownloadimage.MainActivity">
+   <EditText
+       android:background="#fff"
+       android:paddingTop="16dp"
+       android:paddingBottom="16dp"
+       android:layout_marginBottom="8dp"
+       android:id="@+id/urlSelectionText"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:ems="10"
+       android:focusable="false"
+       android:inputType="textUri"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/downloadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#33b5e5"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/urlSelectionText"
+        android:layout_below="@+id/urlSelectionText"
+        android:onClick="downloadImage"
+        android:text="DOWNload iMAGE"
+        />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/downloadProgress"
+        android:indeterminate="false"
+        android:max="100"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_below="@+id/downloadImage"/>
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/chooseImageurl"
+    android:layout_below="@+id/downloadProgress"
+    android:background="#ddd"
+    android:entries="@array/urls"
+    android:layout_alignLeft="@+id/downloadProgress"></ListView>
+</RelativeLayout>
